@@ -1,0 +1,10 @@
+div.logo {
+	text-align: center;
+}
+
+h1 {
+	font-size: 72px;
+	font-family: 'Abel', sans-serif;
+	text-transform: uppercase;
+	letter-spacing: 25px;
+}
