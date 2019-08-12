@@ -1,0 +1,14 @@
+{
+  "name": "menew2.0_server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "author": "Ally Fuller",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
