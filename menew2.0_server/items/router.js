@@ -43,7 +43,7 @@ router.get('/', (req, res) => {
 	})
 })
 
-router.put('/:_id', jsonParser, (req, res) => {
+router.put('/:_id', (req, res) => {
 	const requiredFields = ['name', 'price', 'description'];
 	for (let i=0; i<requiredFields.length; i++) {
 		const field = requiredFields[i];

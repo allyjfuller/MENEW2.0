@@ -1,4 +1,5 @@
 'use strict';
+exports.CLIENT_ORIGIN = process.env.CLIENT_ORIGIN || 'http://localhost:3000'
 exports.DATABASE_URL = process.env.DATABASE_URL || 'mongodb://allyjfuller:railkey1@ds019876.mlab.com:19876/menew';
 exports.PORT = process.env.PORT || 8080;
 exports.JWT_SECRET = process.env.JWT_SECRET || 'secret'

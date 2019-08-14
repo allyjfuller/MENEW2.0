@@ -8,7 +8,7 @@ const passport = require('passport');
 
 
 const { router: usersRouter } = require('./users');
-//const {router: itemRouter } =require('./routers/itemRouter')
+const {router: itemRouter } =require('./items/router')
 const { router: authRouter, localStrategy, jwtStrategy } = require('./auth');
 
 mongoose.set('useNewUrlParser', true);
@@ -32,7 +32,7 @@ passport.use(jwtStrategy);
 
 app.use('/api/users/', usersRouter);
 app.use('/api/auth/', authRouter);
-//app.use('/api/item/', itemRouter);
+app.use('/api/item/', itemRouter);
 
 const jwtAuth = passport.authenticate('jwt', { session: false });
 
