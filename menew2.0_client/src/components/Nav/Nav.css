@@ -16,6 +16,12 @@ li {
 	font-size: 14px;
 }
 
+a.register,
+a.logo {
+	color: #fff;
+	text-decoration: none;
+}
+
 @media only screen and (max-width: 1200px) {
 
 	li {
