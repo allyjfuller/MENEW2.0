@@ -1,5 +1,5 @@
 import React from 'react';
-//import {connect} from 'react-redux';
+import {connect} from 'react-redux';
 import { Redirect } from 'react-router-dom';
 import LoginForm from './login-form';
 //import LandingPage from './landing-page';
@@ -10,7 +10,7 @@ export function LoginPage(props) {
     // is successful) redirect to the user's dashboard
     
     //if (props.loggedIn) {
-        //return <Redirect to="/App" component={ App } />;
+        //return <Redirect to="/dashboard" component={ Dashboard } />;
     //}
 
     return (
