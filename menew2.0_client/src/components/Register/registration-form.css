@@ -1,0 +1,22 @@
+input {
+	margin-top: 12px;
+	margin-bottom: 20px;
+	padding: 6px 6px;
+	width: 250px;
+	border: solid white 1px;
+	border-radius: 15px;
+	font-size: 14px;
+	color: #fff;
+	background-color: #000;
+
+
+}
+
+label {
+	font-family: 'Abel', sans-serif;
+}
+
+@media only screen and (max-width: 1200px) {
+
+
+}
