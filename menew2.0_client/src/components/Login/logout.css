@@ -1,0 +1,10 @@
+button.logout {
+	border: none;
+	color: #fff;
+	background-color: #000;
+	font-family: 'Muli', sans-serif;
+	font-size: 14px;
+	letter-spacing: 0;
+	padding: 0px;
+	margin: 0px 0px 1em 0px;
+}
